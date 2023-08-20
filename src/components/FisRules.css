@@ -1,0 +1,23 @@
+.fisrules {
+    margin-top: 20px;
+    margin: auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    font-size: 16px;
+    color: rgb(55, 55, 55);
+    font-family: inter;
+    padding: 30px;
+    text-align: justify;
+}
+
+.fisrules__title {
+    color: #E00D0D;
+    font-size: 20px;
+    font-family: inter;
+    font-weight: bold; 
+}
+.tips__list {
+    padding: 0px;
+}

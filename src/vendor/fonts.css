@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("./fonts/Inter-Regular.woff2") format("woff2");
+}
+
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  bold;
+  font-weight: 900;
+  src: url("./fonts/Inter-Black.woff2") format("woff2");
+}
+@font-face {
+	font-family: 'Handlee';
+  font-style:  normal;
+	src: url('./fonts/handlee_regular.woff2') format('woff2'); /* Super Modern Browsers */
+}
+@font-face {
+	font-family: 'SovMod';
+  font-style:  normal;
+  
+	src: url('./fonts/SovMod.ttf') format('truetype'); /* Super Modern Browsers */
+}
+
+@font-face {
+	font-family: 'Parabola';
+  font-style:  normal;
+  
+	src: url('./fonts/Parabola.ttf') format('truetype'); /* Super Modern Browsers */
+}

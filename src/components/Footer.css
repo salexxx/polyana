@@ -1,0 +1,23 @@
+.footer {
+    max-width: 600px;
+    display: flex;
+   
+    font-family: inter;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(55, 55, 55); 
+    padding-bottom: 10px;
+    margin: auto;
+    
+}
+.footer_logo {
+    height: 20px;
+    margin-right: 20px;
+}
+.footer_anchor {
+    display: flex;
+   
+}
+.footer_copyright {
+    margin-left: 10px;
+}

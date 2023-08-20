@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0d1f236b.chunk.css",
+    "main.js": "/static/js/main.cc34b5b9.chunk.js",
+    "main.js.map": "/static/js/main.cc34b5b9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7605fc48.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7605fc48.js.map",
+    "static/js/2.170c3e16.chunk.js": "/static/js/2.170c3e16.chunk.js",
+    "static/js/2.170c3e16.chunk.js.map": "/static/js/2.170c3e16.chunk.js.map",
+    "static/js/3.674e4608.chunk.js": "/static/js/3.674e4608.chunk.js",
+    "static/js/3.674e4608.chunk.js.map": "/static/js/3.674e4608.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0d1f236b.chunk.css.map": "/static/css/main.0d1f236b.chunk.css.map",
+    "static/js/2.170c3e16.chunk.js.LICENSE.txt": "/static/js/2.170c3e16.chunk.js.LICENSE.txt",
+    "static/media/Instagram_logo.91084741.svg": "/static/media/Instagram_logo.91084741.svg",
+    "static/media/index.css": "/static/media/Inter-Regular.dcba3388.woff2",
+    "static/media/VK_Logo.853f27cd.png": "/static/media/VK_Logo.853f27cd.png",
+    "static/media/WhatsApp_logo.d7ef159f.svg": "/static/media/WhatsApp_logo.d7ef159f.svg",
+    "static/media/anthon.ff341a65.jpg": "/static/media/anthon.ff341a65.jpg",
+    "static/media/avatar.73f537f2.jpg": "/static/media/avatar.73f537f2.jpg",
+    "static/media/dasha.55b2d6e2.jpg": "/static/media/dasha.55b2d6e2.jpg",
+    "static/media/dmitriy.31420d60.jpeg": "/static/media/dmitriy.31420d60.jpeg",
+    "static/media/Header.css": "/static/media/headerbackground.5ebf2297.jpg",
+    "static/media/hirsh.5b0e92a1.jpg": "/static/media/hirsh.5b0e92a1.jpg",
+    "static/media/ira.e7bfdd9e.jpg": "/static/media/ira.e7bfdd9e.jpg",
+    "static/media/lisa.8c0464a6.jpg": "/static/media/lisa.8c0464a6.jpg",
+    "static/media/olya.6b7e2e4d.jpg": "/static/media/olya.6b7e2e4d.jpg",
+    "static/media/pedagog.b8f35273.jpg": "/static/media/pedagog.b8f35273.jpg",
+    "static/media/slava.6812a43f.jpeg": "/static/media/slava.6812a43f.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7605fc48.js",
+    "static/js/2.170c3e16.chunk.js",
+    "static/css/main.0d1f236b.chunk.css",
+    "static/js/main.cc34b5b9.chunk.js"
+  ]
+}

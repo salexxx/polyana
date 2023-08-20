@@ -1,0 +1,45 @@
+.profile {
+  max-width: 600px;
+  margin-top: 20px;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  color: rgb(55, 55, 55); 
+  text-align: justify;
+  
+}
+.profile__photo {
+
+ margin: auto;
+ border-radius: 10px;
+ width: 50%;
+ height: 50%;
+}
+.profile__story {
+  font-size: 16px;
+  font-family: inter;
+  font-weight: normal;
+ /* line-height: 1.5;*/
+}
+.profile__citata {
+  max-width: 300px;
+  font-size: 16px;
+  font-family: inter;
+  font-weight: bold;
+  align-self:flex-end;
+}
+
+@media screen and (max-width: 600px) {
+  .profile {
+    flex-direction: column;
+  }
+  .profile_photo {
+    margin: auto;
+  }
+  
+}
+.gismeteo {
+  margin: auto;
+}

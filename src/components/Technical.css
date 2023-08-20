@@ -1,0 +1,23 @@
+
+.technical {
+    margin-top: 20px;
+    margin: auto;
+    max-width: 600px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    font-size: 16px;
+    color: rgb(55, 55, 55);
+    font-family: inter;
+    text-align: justify;
+}
+
+.technical__title {
+    font-size: 20px;
+    font-family: inter;
+    font-weight: bold; 
+}
+.technical__photo {
+    max-width: 450px;
+}

@@ -1,0 +1,49 @@
+.header {
+  height: 100%;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.1)), url('../images/headerbackground_1.jpg');
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: center right;
+  margin-bottom: 10px;
+  animation: move 100000ms infinite ease;
+ 
+  
+}
+
+
+
+  .header_title {
+    
+    color: rgb(0, 0, 128);
+    font-family: inter;
+    font-style: bold;
+    text-align: center;
+    padding: 0 50px;
+
+
+  }
+
+  @media screen and (max-width: 725px) {
+    .header_title {
+      font-size: 14px;
+    }
+    .header {
+      min-height: 150px;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    .header_title {
+      font-size: 10px;
+    }
+    .header {
+      min-height: 150px;
+    }
+  }
+ @keyframes move {
+   50% {background-position: center left}
+ }
