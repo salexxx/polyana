@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import  {ReactComponent as Icon} from '../images/menuIcon.svg';
-import  {ReactComponent as closeIcon} from '../images/menu-close.png';
+import  {ReactComponent as CloseIcon} from '../images/menu-close.svg';
 import './NavBar.css';
 import {NavLink} from 'react-router-dom';
 import logo from '../images/vagi_logo.jpeg'
@@ -10,9 +10,9 @@ function NavBar() {
 
   return (
     
-    <div className='menu' onClick={()=> setOpen(!isOpen)}>
+    <div className='menu' >
       <img className='menu__logo' src={logo}></img>
-      <nav className={isOpen ? "menu__nav active" : "menu__nav" } >
+      <nav className={isOpen ? "menu__nav active" : "menu__nav" } onClick={()=> setOpen(!isOpen)} >
         <ul className='menu__nav-list'>
           <li className='menu__nav-item'>
             <NavLink to="/"  className={({isActive}) =>  (isActive ? "menu__item_active" : "menu__item")}>НАЧАЛО</NavLink>
@@ -29,7 +29,7 @@ function NavBar() {
         </ul>
     </nav>
       <div className='menu__button' onClick={()=> setOpen(!isOpen)}>
-        <Icon />
+        {isOpen ? <CloseIcon /> : <Icon/>}
       </div>
     </div>
     

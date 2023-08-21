@@ -11,12 +11,13 @@
     opacity: 0;
     pointer-events: none;
     transition: 0.5s;
+   
 }
 
 .Popup.active {
     opacity: 1;
     pointer-events: all;
-    
+    z-index: +100;
 }
 
 
@@ -38,8 +39,10 @@
     font-family: "SovMod";
     color:darkblue;
     border-color: darkblue;
-    border-radius: 5px;
+    border-radius: 12px;
     height: 50px;
     width: 50vh;
+  
+   
    
 }
