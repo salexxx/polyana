@@ -1,12 +1,13 @@
 .whatsapp {
-    width: 80px;
-    position:sticky;
-    left: 85%;
-    bottom: 10px;
+    width: 40px;
+    margin-right: 20px;
+    /* position:sticky; */
+    /* left: 85%; */
+   margin-top: 5px;
   }
 
   @media screen and (max-width: 425px) {
     .whatsapp {
-    width: 40px;
+    width: 30px;
     } 
   }

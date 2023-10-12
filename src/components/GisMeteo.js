@@ -27,7 +27,7 @@ function GisMeteo() {
       <>
    
     
-    <div id="gsInformerID-AKqncIMgTmb615" className="gsInformer" style={styles0}>
+    <div id="gsInformerID-ydpYR404BU4JPH" className="gsInformer" style={styles0}>
         <div className="gsIContent">
             <div id="cityLink">
                 <a href="https://www.gismeteo.ru/weather-yestosadok-323488/" target="_blank" title="Погода в Эстосадоке">
@@ -59,7 +59,7 @@ function GisMeteo() {
     <Helmet>
                 <meta charSet="utf-8" />
                
-                <script async src="https://www.gismeteo.ru/api/informer/getinformer/?hash=AKqncIMgTmb615" type="text/javascript"></script>
+                <script async src="https://www.gismeteo.ru/api/informer/getinformer/?hash=ydpYR404BU4JPH" type="text/javascript"></script>
                
             </Helmet>
    

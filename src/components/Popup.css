@@ -22,12 +22,13 @@
 
 
 .Popup__content {
-    padding: 20px;
+    padding: 20px ;
     border-radius: 12px;
     background-color: white;
     width: 50vw;
     transform: scale(0.5);
     transition: 0.3s all;
+    max-width: 600px;
 }
 .Popup__content.active {
     transform: scale(1);
@@ -37,12 +38,13 @@
     margin: auto;
     align-items: center;
     font-family: "SovMod";
-    color:darkblue;
-    border-color: darkblue;
+    color:blue;
+    border-color: blue;
     border-radius: 12px;
-    height: 50px;
-    width: 50vh;
-  
-   
-   
+    /* height: 50px; */
+    max-width: 200px;
+    font-size: 16px;
+}
+.Popup__btn :hover{
+    cursor: pointer;
 }

@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && scp -r ./build/* root@185.22.234.151:/var/www/html/instructor/"
+    "deploy": "npm run build && scp -r ./build/* root@217.144.103.124:/var/www/html/polyana/"
   },
   "eslintConfig": {
     "extends": [

@@ -1,11 +1,11 @@
 .feedback {
+    /* font-family: 'Sovmod'; */
     display: flex;
     min-width: 100%;
     min-height: 300px;
     overflow-x: auto;
     margin-left: -30px;
     margin-right: -30px;
-    
 }
 
 
@@ -21,7 +21,7 @@
     margin: 3px;
 }
 .feedback__text {
-    
+    font-family: 'Inter'; 
     margin: 3px;
     padding: 3px;
     font-size: 11px;
@@ -29,4 +29,10 @@
     font-family: inter;
     font-style: italic;
     text-align: left;
+}
+.feedback__about {
+    font-family: 'SovMod';
+    font-size: 18px;
+    color: rgb(55, 55, 55);
+    text-align: center;
 }

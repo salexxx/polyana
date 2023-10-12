@@ -1,8 +1,11 @@
+import { render } from '@testing-library/react';
 import './FisRules.css';
 
 
-function FisRules() {
+const FisRules = ()=> {
+  window.scrollTo(0,0);
   return(
+    
     <div className="fisrules">
     <p className="fisrules__title">ПОМНИТЕ, ЧТО ВСЕ ПРАВИЛА БЕЗОПАСНОСТИ НАПИСАНЫ КРОВЬЮ.</p>
     <p>Настоятельно рекомендую данный раздел к детальному изучению</p>
@@ -19,7 +22,9 @@ function FisRules() {
       <li className="tips__item">Иметь при себе удостоверение личности и предъявить его по первому требованию. Каждый, ставший свидетелем или участником несчастного случая, независимо от того, несёт он какую-либо ответственность или нет, должен предоставить личные данные (ФИО, контактный телефон).</li>
     </ol>
   </div>
-  );
+    )  
+
+  
   }
   
-  export default FisRules
+  export default FisRules;

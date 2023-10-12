@@ -1,0 +1,57 @@
+.instructors {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.instructors h3 {
+    font-family: 'Inter';
+    color: #606060;
+    text-align: center;
+}
+.instructor__card {
+    max-width: 600px;
+    text-decoration: none;
+    color: #606060;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color:whitesmoke;
+    
+    
+}
+.instructor__card a :hover {
+    cursor: pointer;
+}
+.instructor__profile a {
+    width: 180px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px grey;
+  
+}
+.instructor__img {
+   /* margin: auto auto; */
+    width: 100%;
+   
+}
+.instructor__name {
+    font-family: 'Inter';
+    text-align: center;
+    padding: 5px;
+}
+.instructor__about {
+    padding: 10px;
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media screen and (max-width: 375px) {
+    
+}

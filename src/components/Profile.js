@@ -1,37 +1,67 @@
-import {useState} from 'react'
+import {Children, useState} from 'react'
 import './Profile.css';
-import profilePhoto from '../images/avatar.jpg';
+import profilePhoto from '../images/avatar.jpeg';
+import Shield from '../images/shield.png';
+import Heart from '../images/heart.png';
 import Feedback from './Feedback';
 import GisMeteo from './GisMeteo';
 import Header from './Header';
 import Popup from './Popup';
-import PopupButton from './PopupButton'
+import Popupform from './Popupform';
+import Prices from './Prices';
+import Important from './important';
+import Skils from './skils';
+import PopupButton from './PopupButton';
+import Zoom from 'react-reveal/Zoom';
+import Thirty from '../images/30th.png';
+// import Fade from 'react-reveal/Fade';
 
 function Profile() {
+  // window.scrollTo(0,0)
   const [popupActive, setPopupActive] = useState(false);
   const handleClick = (event)=>{
     
-    setPopupActive(true);
+    setPopupActive(!popupActive);
   }
  
   return(
     <>
     <Header/>
-    <Popup active={popupActive} setActive={setPopupActive}/>
+    <Popup active={popupActive} setActive={setPopupActive} children={<Popupform/>}/>
      <section className="profile">
-    
+
+       <Zoom bottom>
+       <img src={Thirty} className='profile__icon'></img>
+     <p className="profile__citata">БОЛЕЕ 30 ЛЕТ МЫ ПОДГОТАВЛИВАЕМ КЛАССНЫХ ИНСТРУКТОРОВ! </p>
+       </Zoom>
+
+       <Zoom bottom>
+         <img src={Shield} className='profile__icon'></img>
+     <p className="profile__citata">НАША ЦЕЛЬ - ВАША БЕЗОПАСНОСТЬ В ГОРАХ.  </p>
+       </Zoom>
+
+       <Zoom bottom>
+       <img src={Heart} className='profile__icon'></img>
+     <p className="profile__citata">НАША МИССИЯ - МЫ ВЛЮБЛЯЕМ В ГОРНЫЕ ЛЫЖИ. </p>
+       </Zoom>
+
+
       <img className = "profile__photo" alt = "profile" src = {profilePhoto}></img>
-      <p className="profile__citata"> АЛЕКСЕЙ СМОЛЯНИНОВ - ИНСТРУКТОР ПРЕПОДАВАТЕЛЬ ВЫСШЕЙ КАТЕГОРИИ, РУКОВОДИТЕЛЬ ОТДЕЛЕНИЯ В КРАСНОЙ ПОЛЯНЕ, КМС ПО ГОРНОЛЫЖНОМУ СПОРТУ, ПОБЕДИТЕЛЬ ПЕРВЕНСТВА РОССИИ ПО ПАРАЛЛЕЛЬНОМУ СЛАЛОМУ, СОРЕВНОВАНИЙ "РУСМАСТЕРС", НЕОДНОКРАТНЫЙ ПРИЗЁР КУБКА КРАСНОЙ ПОЛЯНЫ</p>
-      
-      
-      <p className = "profile__story">Здравствуйте! Меня зовут Алексей Смолянинов. Я профессиональный инструктор <a href = 'https://arasia.ru/instruktor-po-gornym-lyzham-nv214/' target="_blank">1-й категории</a> со стажем катания более 35 лет. КМС по горнолыжному спорту. Победитель первенства России в параллельном слаломе. Неоднократный победитель этапов Мастерс, обладатель Кубка Сибири среди ветеранов и любителей горнолыжного спорта.</p>
-      <p className = "profile__story">Миссия инструктора, на мой взгляд, влюбить в горные лыжи!</p>
-        <p className = "profile__story">Провожу занятия от первых шагов до мастер класса по спортивной технике в максимально доступной форме в Красной Поляне.</p> 
-     <PopupButton onClick={handleClick}/>
+      <p className="profile__citata" style={{fontSize: '20px', paddingTop:'20px', paddingBottom:'20px', fontFamily: 'Inter'}}> АЛЕКСЕЙ СМОЛЯНИНОВ - РУКОВОДИТЕЛЬ ОТДЕЛЕНИЯ В КРАСНОЙ ПОЛЯНЕ,
+       ИНСТРУКТОР ПРЕПОДАВАТЕЛЬ ВЫСШЕЙ КАТЕГОРИИ, КМС ПО ГОРНОЛЫЖНОМУ СПОРТУ
+        </p>
+         
+        <p className='profile__citata' style={{color:'blue', fontSize: '20px', fontFamily: 'Inter'}}>
+           "В НАШЕЙ РАБОТЕ МЫ ИСПОЛЬЗУЕМ САМЫЕ СОВРЕМЕННЫЕ, А ТАКЖЕ АВТОРСКИЕ МЕТОДИКИ, НЕ ЗАТЯГИВАЕМ ПРОЦЕСС ОБУЧЕНИЯ!"
+          </p>
+         
         < Feedback />
+        <Prices />
+        <PopupButton onClick={handleClick} />
+        <Important />
+        <Skils/>
+        {/* <PopupButton onClick={handleClick} /> */}
        
-        <p className = "profile__story"> Звоните и записывайтесь на индивидуальное или групповое занятие в Красной Поляне.
-        Стоимость занятия от 3000 рублей.</p>
         <div className="gismeteo">< GisMeteo /></div>
         
         </section>

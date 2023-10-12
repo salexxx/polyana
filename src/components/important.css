@@ -1,0 +1,23 @@
+.important svg {
+    width: 100%;
+    /* margin-bottom: -6px; */
+}
+.important {
+    position: relative;
+    background-color: red;
+}
+
+.important__why {
+    color: white;
+    margin: 0;
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+    line-height: 2.5;
+}
+.important :last-of-type {
+    margin-bottom: 50px;
+
+}
+
+

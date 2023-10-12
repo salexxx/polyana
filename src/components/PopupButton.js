@@ -6,7 +6,7 @@ const PopupButton = ({onClick}) => {
     }
     return (
         <div className='Popup__btn'>
-         <button className='Popup__btn' onClick={handleClick}>ЗАБРОНИРОВАТЬ ИНСТРУКТОРА</button>
+         <button className='Popup__btn' onClick={handleClick}>ЗАПИСАТЬСЯ К ИНСТРУКТОРУ</button>
         </div>
     )
 }

@@ -30,3 +30,9 @@
   
 	src: url('./fonts/Parabola.ttf') format('truetype'); /* Super Modern Browsers */
 }
+
+@font-face {
+  font-family: 'Roboto';
+  font-size: bold;
+  src: url('./fonts/Robotoblack.ttf') format('truetype');
+}

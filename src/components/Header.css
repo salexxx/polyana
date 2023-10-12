@@ -1,49 +1,68 @@
 .header {
-  height: 100%;
-  max-width: 100vw;
+   position: relative; 
+  width: 100%;
+  min-height: 450px;  
   display: flex;
   flex-direction: column;
-
-  justify-content: center;
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.1)), url('../images/headerbackground_1.jpg');
-  background-size: 200%;
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.1)), url('../images/headerbackground_1.jpg');
+  background-size:150%; 
+  align-items: center;
   background-repeat: no-repeat;
   background-position: center right;
-  margin-bottom: 10px;
   animation: move 100000ms infinite ease;
- 
-  
 }
 
+.header svg {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  opacity: 1;
+}
 
+.header svg path {
+  fill: #fff;
+}
 
   .header_title {
-    
-    color: rgb(0, 0, 128);
-    font-family: inter;
-    font-style: bold;
+    font-family: 'SovMod';
+    /* font-family: 'Roboto'; */
     text-align: center;
-    padding: 0 50px;
+    font-size: 26px;
+    max-width: 600px;
+    line-height: 1.4;
+    /* margin: auto; */
+    /* padding: 3% 10% 0; */
+  }
 
+  @media screen and (max-width: 670px) {
+    
+    .header{
+      background-size: 250%;
+      min-height: 350px;
+    }
 
   }
 
-  @media screen and (max-width: 725px) {
+  @media screen and (max-width: 576px) {
     .header_title {
-      font-size: 14px;
+      font-size: 24px;
     }
-    .header {
-      min-height: 150px;
+    .header{
+    min-height: 300px;
     }
+
   }
-  @media screen and (max-width: 300px) {
+
+  @media screen and (max-width: 450px) {
     .header_title {
-      font-size: 10px;
+      font-size: 20px;
     }
-    .header {
-      min-height: 150px;
+    .header{
+     background-size: 350%;
     }
   }
- @keyframes move {
+
+  @keyframes move {
    50% {background-position: center left}
  }

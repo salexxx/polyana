@@ -1,0 +1,22 @@
+.popupform {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 5px auto;
+    font-family: 'SovMod';
+    text-align: center;
+}
+.popupBtn {
+  background-color: red;
+    margin: auto;
+    border: none;
+}
+.popuptitle {
+    background-color: #606060;
+    padding: 5px;
+    
+}
+.popupform_coment {
+    height: 60px;
+    /* text-align: left; */
+}
